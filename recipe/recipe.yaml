@@ -26,7 +26,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pygls
+    - pygls <2
 
 tests:
   - python:
